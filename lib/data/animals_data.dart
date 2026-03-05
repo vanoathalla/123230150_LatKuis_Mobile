@@ -1,4 +1,4 @@
-import 'package:lat_kuis/models/animal_model.dart';
+import '../model/animal_model.dart';
 
 List<Animal> dummyAnimals = [
   Animal(
@@ -53,6 +53,7 @@ List<Animal> dummyAnimals = [
     habitat: ["Bamboo Forest"],
     height: 75,
     activities: ["Eating Bamboo", "Climbing", "Sleeping"],
-    image: "https://images.pexels.com/photos/32607009/pexels-photo-32607009.jpeg",
+    image:
+        "https://images.pexels.com/photos/32607009/pexels-photo-32607009.jpeg",
   ),
 ];

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../models/animal_model.dart'; // Adjust path
+import '../../model/animal_model.dart'; // Adjust path
 import '../../data/animals_data.dart'; // Adjust path
 import 'detail_page.dart';
 
@@ -51,7 +51,7 @@ class HomePage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    ClipRidge(
+                    ClipRRect(
                       borderRadius: const BorderRadius.vertical(
                         top: Radius.circular(12),
                       ),

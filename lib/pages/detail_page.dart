@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../models/animal_model.dart'; // Adjust path
+import '../../model/animal_model.dart'; // Adjust path
 
 class DetailPage extends StatelessWidget {
   final Animal animal;
